@@ -15,7 +15,7 @@ specificationsRoutes.post("/", (request, response) => {
 
   createSpecificationService.execute({ name, description });
 
-  response.status(201).send();
+  return response.status(201).send();
 });
 
 export { specificationsRoutes };

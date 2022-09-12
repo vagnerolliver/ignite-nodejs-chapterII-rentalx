@@ -5,6 +5,7 @@ class Specification {
   name: string;
   description: string;
   created_at: Date;
+  testEslint: string;
 
   constructor() {
     if (!this.id) {

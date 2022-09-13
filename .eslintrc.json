@@ -20,6 +20,14 @@
       "eslint-plugin-import-helpers",
       "prettier"
   ],
+  "overrides": [
+    {
+      "files": [ "**/*Repository.ts" ],
+      "rules": {
+        "no-use-before-define": "off"
+      }
+    }
+  ],
   "rules": {
     "camelcase": "off",
     "import/no-unresolved": "error",
